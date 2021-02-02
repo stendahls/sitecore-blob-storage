@@ -24,13 +24,16 @@
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>.\bin\Debug\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <SitecoreWebUrl>http://sc81u1.local/</SitecoreWebUrl>
+    <SitecoreWebUrl>http://sc93.local/</SitecoreWebUrl>
     <InstallSitecoreConnector>True</InstallSitecoreConnector>
     <DisableFileDeployment>False</DisableFileDeployment>
-    <SitecoreDeployFolder>C:\Dev\sc81u1\Website</SitecoreDeployFolder>
+    <SitecoreDeployFolder>C:\Dev\sc93\Website</SitecoreDeployFolder>
     <SitecoreAccessGuid>ed453b67-03b8-43e2-b6ad-c49c8c7e8f1e</SitecoreAccessGuid>
     <EnableValidations>False</EnableValidations>
     <ValidationSettingsFilePath>.\Stendahls.Sc.BlobStorage.TDS.Core_Debug.xml</ValidationSettingsFilePath>
+    <LightningDeployMode>False</LightningDeployMode>
+    <EnableContainerDeployment>False</EnableContainerDeployment>
+    <ConnectorTimeoutSeconds>120</ConnectorTimeoutSeconds>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
